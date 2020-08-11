@@ -12,4 +12,4 @@ while(1==1):
     if (alarmhour == datetime.datetime.now().hour and alarmminute == datetime.datetime.now().minute):
     	print(message)
     	
-    	winsound.PlaySound("iichy",winsound.SND_FILENAME)
+    	winsound.PlaySound("song of your choice in Wav format",winsound.SND_FILENAME)
